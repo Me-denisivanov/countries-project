@@ -1,0 +1,16 @@
+.custom-select {
+	&__control {
+        background: var(--bg-header-color) !important;
+		border: none !important;
+        box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+        border-radius: 12px !important;
+
+	}
+    &__placeholder{
+        color: var(--color-text) !important;
+    } 
+
+    &__single-value {
+        color: var(--color-text) !important;
+    }
+}

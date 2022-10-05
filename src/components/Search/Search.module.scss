@@ -1,0 +1,23 @@
+.search_main_block{
+  position: relative;
+  box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+  border-radius: 12px;
+  padding: 10px 41px;
+
+  .search_icon{
+    position: absolute;
+    top: 9px;
+    left: 26px;
+    color: var(--inverted-color-icon)
+  }
+
+  .search_input_block{
+    outline: none;
+    border: none;
+    background: var(--bg-color);
+    margin-left: 30px;
+    color: var(--inverted-color-icon);
+    font-size: 13px;
+  }
+}
+
